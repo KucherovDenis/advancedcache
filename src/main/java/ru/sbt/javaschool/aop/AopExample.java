@@ -7,8 +7,6 @@ import ru.sbt.javaschool.cache.Calculator;
 
 public class AopExample {
 
-
-
     public static void main(String[] args) {
         try (ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("aopconfig.xml")) {
             Calculator calc = context.getBean(Calculator.class);

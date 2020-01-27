@@ -7,7 +7,6 @@ import ru.sbt.javaschool.cache.Cache;
 import ru.sbt.javaschool.cache.Cacheable;
 import ru.sbt.javaschool.cache.Calculator;
 import ru.sbt.javaschool.cache.FibonacciCache;
-import ru.sbt.javaschool.cache.db.H2JdbcCacheDAO;
 import ru.sbt.javaschool.cache.db.H2SpringCacheDAO;
 
 import java.lang.reflect.InvocationHandler;
