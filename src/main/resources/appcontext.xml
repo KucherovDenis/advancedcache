@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean class="ru.sbt.javaschool.cache.CacheableAnotationHandlerBeanPostProcessor"
+    <bean class="ru.sbt.javaschool.postprocessor.CacheableAnotationHandlerBeanPostProcessor"
           init-method="init" destroy-method="destroy"/>
 
     <bean id="calc" class="ru.sbt.javaschool.impl.CalculatorImpl"/>

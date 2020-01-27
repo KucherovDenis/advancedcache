@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-class FibonacciCache implements Cache<Integer> {
+public class FibonacciCache implements Cache<Integer> {
 
     private Map<Integer, CacheEntity> cacheMap = new HashMap<>();
 
